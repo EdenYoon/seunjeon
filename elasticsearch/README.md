@@ -4,7 +4,7 @@
 ## 설치
 ```bash
 # elasticsearch 5.0.0 이상
-./bin/elasticsearch-plugin install https://oss.sonatype.org/service/local/repositories/releases/content/org/bitbucket/eunjeon/elasticsearch-analysis-seunjeon/5.1.1.1/elasticsearch-analysis-seunjeon-5.1.1.1.zip
+./bin/elasticsearch-plugin install https://oss.sonatype.org/service/local/repositories/releases/content/org/bitbucket/eunjeon/elasticsearch-analysis-seunjeon/5.2.2.0/elasticsearch-analysis-seunjeon-5.2.2.0.zip
 
 # elasticsearch 2.4.1 이하
 ./bin/elasticsearch-plugin install org.bitbucket.eunjeon/elasticsearch-analysis-seunjeon/2.4.0.1
@@ -13,6 +13,7 @@
 ## Release
 | elasticsearch-analysis-seunjeon | target elasticsearch | release note |
 | ------------------------------- | ---------------------| ------------ |
+| 5.2.2.0                         | 5.2.2                | 추가 기능 없음 |
 | 5.1.1.1                         | 5.1.1                | 사용자 사전에 복합명사 등록 기능 추가  |
 | 5.1.1.0                         | 5.1.1                | 추가 기능 없음 |
 | 5.0.0.0                         | 5.0.0                | 추가 기능 없음 |
